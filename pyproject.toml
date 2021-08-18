@@ -1,0 +1,36 @@
+[project]
+name = "Shop"
+version = "0.0.1"
+description = ""
+authors = [
+    {name = "Aibulat", email = "aibulat122@yandex.ru"},
+]
+dependencies = [
+    "django~=3.2",
+    "django-rest-framework~=0.1",
+    "psycopg2~=2.9",
+    "django-cors~=0.1",
+    "django-cors-headers~=3.8",
+    "django-stubs~=1.8",
+    "python-dotenv~=0.19",
+    "django-split-settings~=1.1",
+]
+requires-python = ">=3.9"
+dynamic = ["classifiers"]
+license = {text = "MIT"}
+
+[project.urls]
+homepage = ""
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
+
+[tool.pdm.scripts]
+runserver = "python manage.py runserver"
+migrate = "python manage.py migrate"
+makemigrations = "python manage.py makemigrations"
+
