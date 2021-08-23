@@ -34,8 +34,8 @@ ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS','localhost')]
 # Application definition
 
 INSTALLED_APPS = [
-    'server.apps.User',
-    'server.apps.Product',
+    'server.apps.user',
+    'server.apps.product',
     'server.apps.cart',
     'rest_framework.authtoken',
     'rest_framework',

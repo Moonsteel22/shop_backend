@@ -1,0 +1,5 @@
+__pypackages__
+Shop.egg-info
+dist
+*_pycache__
+.env

@@ -7,3 +7,6 @@ class Cart(models.Model):
     user_id = models.ForeignKey(User, on_delete=CASCADE)
     product_id = models.ForeignKey(Product,on_delete=CASCADE)
     amount = models.PositiveIntegerField(default=1)
+
+    class Meta:
+        unique_together = ['user_id','product_id']
