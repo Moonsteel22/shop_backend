@@ -3,3 +3,4 @@ Shop.egg-info
 dist
 *_pycache__
 .env
+.vscode

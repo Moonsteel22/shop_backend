@@ -7,13 +7,13 @@ authors = [
 ]
 dependencies = [
     "django~=3.2",
-    "django-rest-framework~=0.1",
-    "psycopg2~=2.9",
     "django-cors~=0.1",
     "django-cors-headers~=3.8",
     "django-stubs~=1.8",
     "python-dotenv~=0.19",
     "django-split-settings~=1.1",
+    "psycopg2-binary~=2.9",
+    "djangorestframework~=3.12",
 ]
 requires-python = ">=3.9"
 dynamic = ["classifiers"]
